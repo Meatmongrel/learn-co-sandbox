@@ -12,7 +12,9 @@ array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapp
 
 def firstLetter(array)
   array.each do |word|
-    p word[0]
+    if word[0] == "a"
+      print word
+    end
   end
 end
 
