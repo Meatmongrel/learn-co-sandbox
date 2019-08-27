@@ -39,12 +39,10 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
 
 def goodFood(foods)
   new = []
-  foods.delete_if {}
-    
-      
-    end
+  foods.delete_if do |food, value|
+    value == "not delicious"
   end
-  return new
+  return foods
 end
 
 p goodFood(foods)
