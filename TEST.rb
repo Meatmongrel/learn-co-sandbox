@@ -40,7 +40,7 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
 def goodFood(foods)
   new = []
   foods.each do |food, value|
-    if value == "delicious"
+    
       new << food
     end
   end
