@@ -7,3 +7,5 @@
 
 # p reverse_each_word("This is a sentence")
 
+array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
+
