@@ -39,9 +39,9 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
 
 def goodFood(foods)
   new = []
-  foods.each do |food, value|
+  foods.delete_if {}
     
-      new << food
+      
     end
   end
   return new
