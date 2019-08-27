@@ -28,7 +28,7 @@ def wordCount(sentence)
   new.each do |word|
     num += 1
   end
-  num
+  new
 end
 
 p firstLetter(array)
