@@ -10,15 +10,15 @@
 
 array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 
-def firstLetter(array)
-  new = []
-  array.each do |word|
-    if word[0] == "a"
-      new << word
-    end
-  end
-  new
-end
+# def firstLetter(array)
+#   new = []
+#   array.each do |word|
+#     if word[0] == "a"
+#       new << word
+#     end
+#   end
+#   new
+# end
 
 string = "This is a sentence for a test."
 
