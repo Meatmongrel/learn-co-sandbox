@@ -9,4 +9,6 @@
 
 array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 
-def firs
+def firstLetter(array)
+  
+end
