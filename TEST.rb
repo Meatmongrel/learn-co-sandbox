@@ -44,7 +44,7 @@ def goodFood(foods)
       new << food
     end
   end
-  new
+  return new
 end
 
 p goodFood(foods)
