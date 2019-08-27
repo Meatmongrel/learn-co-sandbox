@@ -12,7 +12,7 @@ array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapp
 
 def firstLetter(array)
   array.each do |word|
-    return word[0]
+    p word[0]
   end
 end
 
