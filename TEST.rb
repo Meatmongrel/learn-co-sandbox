@@ -33,4 +33,18 @@ end
 
 p firstLetter(array)
 p wordCount(string)
+foods = {"pie" => "delicious", "broccoli" => "not delicious",
+"carrots" => "not delicious", "apples" => "delicious",
+"peanut butter" => "delicious"}
 
+def goodFood(foods)
+  foods.each do |food, value|
+    new = []
+    if value == "delicious"
+      new << food
+    end
+  end
+  new
+end
+
+p goodFood(foods)
