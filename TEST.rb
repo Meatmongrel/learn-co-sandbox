@@ -20,4 +20,15 @@ def firstLetter(array)
   new
 end
 
+string = "This is a sentence for a test."
+
+def wordCount(sentence)
+  num = 0
+  sentence.each do |word|
+    num += 1
+  end
+  num
+end
+
 p firstLetter(array)
+p wordCount(string)
