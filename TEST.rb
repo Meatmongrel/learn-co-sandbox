@@ -23,9 +23,9 @@ end
 string = "This is a sentence for a test."
 
 def wordCount(sentence)
-  
+  new = sentence.split(",")
   num = 0
-  sentence.each do |word|
+  new.each do |word|
     num += 1
   end
   num
