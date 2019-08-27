@@ -30,6 +30,12 @@ def wordCount(sentence)
   end
   num
 end
+def rude_greeting(name=nil)
+ name ||= "you jerk"
+ puts "Hey there, #{name}"
+end
+
+p rude_greeting
 
 p firstLetter(array)
 p wordCount(string)
